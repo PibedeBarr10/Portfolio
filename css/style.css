@@ -17,10 +17,6 @@ body {
     color: white;
 }
 
-header {
-
-}
-
 main {
     display: grid;
     padding: 4vh;
@@ -67,7 +63,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(83, 51, 228);
+    /*background-color: rgb(83, 51, 228);*/
+    border: 0.01vh solid white;
 }
 
 nav a img {
@@ -100,7 +97,6 @@ nav a img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4vh;
-    
 }
 
 .block_1 {
@@ -114,4 +110,36 @@ nav a img {
 
 .block_1 li {
     padding: 0.8vh;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4vh;
+}
+
+.block_2 {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgb(83, 51, 228);
+    text-align: center;
+}
+
+.block_2 a {
+    color: white;
+}
+
+.contact {
+    display: inline-flex;
+}
+
+.contact li {
+    list-style: none;
+    margin: 2vh;
+}
+
+.contact li a img {
+    filter: invert(100%);
 }
